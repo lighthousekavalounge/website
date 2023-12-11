@@ -1,0 +1,47 @@
+@import "../styles/mixins.module.scss";
+@import "../styles/variables.module.scss";
+
+.main {
+  height: 100vh;
+  background-color: $darkShade;
+
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem 0rem;
+    color: $textWhite;
+    height: inherit;
+
+    .imgContainer {
+      position: relative;
+      height: 15rem;
+      width: 15rem;
+    }
+
+    h1,
+    p {
+      text-align: center;
+      margin: 1rem 0rem;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+    }
+  }
+}
+
+@media (min-width: $Mobile) {
+  .main {
+    .description {
+      h1 {
+        font-size: 3.6rem;
+      }
+      .imgContainer {
+        height: 35rem;
+        width: 35rem;
+      }
+    }
+  }
+}
