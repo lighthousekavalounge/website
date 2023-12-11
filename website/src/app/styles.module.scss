@@ -14,20 +14,19 @@
     color: $textWhite;
     height: inherit;
 
-    .imgContainer {
-      position: relative;
-      height: 25rem;
-      width: 25rem;
+    .header {
+      font-size: 2.8rem;
     }
 
     h1,
     p {
       text-align: center;
-      margin: 1rem 0rem;
     }
 
-    h1 {
-      font-size: 2.8rem;
+    .imgContainer {
+      position: relative;
+      height: 25rem;
+      width: 25rem;
     }
   }
 }

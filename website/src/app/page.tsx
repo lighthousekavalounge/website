@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <h1>Lighthouse Kava Lounge</h1>
+        <h1 className={styles.header}>Lighthouse Kava Lounge</h1>
         <div className={styles.imgContainer}>
           <Image
             fill
